@@ -1,0 +1,20 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Docker-related files (optional)
+*.dockerignore
+
+# Ignore environment variables or secrets (if any in the future)
+.env
